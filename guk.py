@@ -8,18 +8,22 @@
 # b=int(input("enter the 2nd number:"))
 # add(a,b)
 
-def power(x,y):
+# def power(x,y):
   
-    result=a**b
-    print(f"power of given number is:",result)
+#     result=a**b
+#     print(f"power of given number is:",result)
 
-    return result
+#     return result
 
-a=int(input("enter the number:"))
-b=int(input("enter the power:"))
-power(a,b)
+# a=int(input("enter the number:"))
+# b=int(input("enter the power:"))
+# power(a,b)
 
+n = int(input("Enter a number: "))
 
-
+print("Multiplication table for", n)
+for i in range(1, 11):
+    product = n * i
+    print(n, "x", i, "=", product)
 
 
