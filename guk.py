@@ -1,12 +1,12 @@
 
-# def add(x,y):
-#     sum=a+b
-#     print(f"sum is:",sum)
-#     return sum
+def add(x,y):
+    sum=a+b
+    print(f"sum is:",sum)
+    return sum
 
-# a=int(input("enter the 1st number:"))
-# b=int(input("enter the 2nd number:"))
-# add(a,b)
+a=int(input("enter the 1st number:"))
+b=int(input("enter the 2nd number:"))
+add(a,b)
 
 # def power(x,y):
   
@@ -101,42 +101,42 @@
 # for student in stu_list:
 #     student.info()
 
-class Student:
-    college_name="reva"
-    def __init__(self,name,age,gender):
-        self.name=name
-        self.age=age
-        self.gender=gender
-# instance 
-    def info(self):
-       marks=[1,2,3,4,5]
-       self.college()
-       print(f"name:{self.name} | age:{self.age} | gender:{self.gender}")
-       self.total_marks(marks)
+# class Student:
+#     college_name="reva"
+#     def __init__(self,name,age,gender):
+#         self.name=name
+#         self.age=age
+#         self.gender=gender
+# # instance 
+#     def info(self):
+#        marks=[1,2,3,4,5]
+#        self.college()
+#        print(f"name:{self.name} | age:{self.age} | gender:{self.gender}")
+#        self.total_marks(marks)
 
-# class
-    @classmethod
-    def college(cls):
-        print(f"college:{cls.college_name}")
+# # class
+#     @classmethod
+#     def college(cls):
+#         print(f"college:{cls.college_name}")
 
-# static
-    @staticmethod
-    def total_marks(marks_list):
-        total=0
-        for mark in marks_list:
-            total=total +mark
-        print(f"totak marks:{total}")
-        return total
+# # static
+#     @staticmethod
+#     def total_marks(marks_list):
+#         total=0
+#         for mark in marks_list:
+#             total=total +mark
+#         print(f"totak marks:{total}")
+#         return total
     
-ram= Student("ram",18,"male")
-ram.info()
-students_list = [("StudentM1", 19, "Male"), ("StudentF1", 20, "Female")]
+# ram= Student("ram",18,"male")
+# ram.info()
+# students_list = [("StudentM1", 19, "Male"), ("StudentF1", 20, "Female")]
 
-students = []
-for name, age, gender in students_list:
-  s = Student(name, age, gender)
-  students.append(s)
-s.info()
+# students = []
+# for name, age, gender in students_list:
+#   s = Student(name, age, gender)
+#   students.append(s)
+# s.info()
 
 
 
